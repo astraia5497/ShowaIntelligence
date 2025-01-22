@@ -2283,6 +2283,144 @@
 				)
 			)
 		)
+		(symbol "kbd:YS-SK6812MINI-E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+				)
+			)
+			(property "Value" "YS-SK6812MINI-E"
+				(at 6.35 -6.35 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "YS-SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "YS-SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3990,7 +4128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led"
 			(at 177.8 39.37 0)
 			(effects
 				(font
@@ -4192,7 +4330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ST7789v_Library:ST7789V"
 			(at 153.67 123.19 0)
 			(effects
 				(font
@@ -4342,7 +4480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -4430,7 +4568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -4518,7 +4656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 139.7 44.45 0)
 			(effects
 				(font
@@ -4603,7 +4741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led"
 			(at 177.8 57.15 0)
 			(effects
 				(font
@@ -4737,7 +4875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
 			(at 173.99 96.266 0)
 			(effects
 				(font
@@ -4783,6 +4921,80 @@
 			(project ""
 				(path "/eb9efe38-c1c1-4280-ba2b-08a47c3e2531"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kbd:YS-SK6812MINI-E")
+		(at 101.6 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a755ba3a-fe5f-4a42-8ee4-fb9efd89d289")
+		(property "Reference" "LED1"
+			(at 113.03 22.2565 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "YS-SK6812MINI-E"
+			(at 113.03 23.5265 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "82c98969-3a47-4ed7-a504-f425996b00fb")
+		)
+		(pin "2"
+			(uuid "c32d89e7-26bc-480b-9a6b-b6aac187c810")
+		)
+		(pin "1"
+			(uuid "d43e8c60-54f0-4436-993b-b54320113714")
+		)
+		(pin "3"
+			(uuid "6cb0522c-6533-4123-943f-38183f463c7b")
+		)
+		(instances
+			(project ""
+				(path "/eb9efe38-c1c1-4280-ba2b-08a47c3e2531"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -4882,7 +5094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 187.96 107.95 0)
 			(effects
 				(font
@@ -4970,7 +5182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 167.64 44.45 0)
 			(effects
 				(font
@@ -5058,7 +5270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 167.64 83.82 0)
 			(effects
 				(font
@@ -5210,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -5276,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -5342,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led"
 			(at 151.13 39.37 0)
 			(effects
 				(font
@@ -5408,7 +5620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:keyswitch_choc12_gateron_low_profile_hotswap_1u_no_led"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -5631,7 +5843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd_parts:D_SOD-123-Pretty"
 			(at 139.7 63.5 0)
 			(effects
 				(font
