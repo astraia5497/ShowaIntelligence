@@ -4260,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:LED_WS2812B-PLCC4"
 			(at 24.13 55.88 0)
 			(effects
 				(font
@@ -4330,7 +4330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ST7789v_Library:ST7789V"
+		(property "Footprint" "tft_displays:2.8_tft_240x320_touch_sd_spi"
 			(at 153.67 123.19 0)
 			(effects
 				(font
@@ -4807,7 +4807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:LED_WS2812B-PLCC4"
 			(at 24.13 35.56 0)
 			(effects
 				(font
@@ -6120,7 +6120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd:LED_WS2812B-PLCC4"
 			(at 24.13 45.72 0)
 			(effects
 				(font
